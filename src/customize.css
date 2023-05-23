@@ -4,10 +4,50 @@
     background-attachment: fixed;
 }
 
+.logos {
+    width: 150px;
+    height: 150px;
+}
+
+.openai{
+    background: url('assets/img/logos/chatgpt.png');
+    background-size:contain;    
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.golang{
+    background: url('assets/img/logos/golang.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.grapesjs{
+    background: url('assets/img/logos/grapesjs.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.threejs{
+    background: url('assets/img/logos/threejs.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.chartjs{
+    background: url('assets/img/logos/chartjs.png');
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .gallery{
     border:5px solid yellowgreen;
     width: 600px;
-    height: 300px;
+    height: 400px;
 }
 
 .header-text{
@@ -16,38 +56,50 @@
 }
 
 .chatgpt_1{
-    background: url('assets/gallery/chatgpt1.jpg');
+    background: url('assets/img/gallery/chatgpt1.jpg');
     background-size:cover;
 }
 .chatgpt_2{
-    background: url('assets/gallery/chatgpt2.jpg');
+    background: url('assets/img/gallery/chatgpt2.jpg');
     background-size:cover;
 }
 .golang_1{
-    background: url('assets/gallery/golang1.png');
+    background: url('assets/img/gallery/golang1.png');
     background-size:cover;
 }
 .golang_2{
-    background: url('assets/gallery/golang2.jpg');
+    background: url('assets/img/gallery/golang2.jpg');
     background-size:cover;
 }
 .grapesjs_1{
-    background: url('assets/gallery/grapesjs1.png');
+    background: url('assets/img/gallery/grapesjs1.png');
     background-size:cover;
 }
 .grapesjs_2{
-    background: url('assets/gallery/grapesjs2.png');
+    background: url('assets/img/gallery/grapesjs2.png');
     background-size:cover;
 }
 .grapesjs_3{
-    background: url('assets/gallery/grapesjs3.jpg');
+    background: url('assets/img/gallery/grapesjs3.jpg');
     background-size:cover;
 }
 .threejs_1{
-    background: url('assets/gallery/threejs1.jpg');
+    background: url('assets/img/gallery/threejs1.jpg');
     background-size:cover;
 }
 .threejs_2{
-    background: url('assets/gallery/threejs2.jpg');
+    background: url('assets/img/gallery/threejs2.jpg');
+    background-size:cover;
+}
+.chartjs_1{
+    background: url('assets/img/gallery/chartjs1.png');
+    background-size:cover;
+}
+.chartjs_2{
+    background: url('assets/img/gallery/chartjs2.jpg');
+    background-size:cover;
+}
+.chartjs_3{
+    background: url('assets/img/gallery/chartjs3.png');
     background-size:cover;
 }

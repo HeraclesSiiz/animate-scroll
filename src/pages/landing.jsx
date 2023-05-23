@@ -39,6 +39,23 @@ export default function Landing(props) {
           <Typography variant="h1" color="primary" className='text-center' pt={5}>
             DEVELOPMENT TEAM
           </Typography>
+          <Grid container direction="row" justifyContent="space-evenly" alignItems="center" mt={5}>
+            <Grid item>
+              <div className='logos openai'></div>
+            </Grid>
+            <Grid item>
+              <div className='logos golang'></div>
+            </Grid>
+            <Grid item>
+              <div className='logos grapesjs'></div>
+            </Grid>
+            <Grid item>
+              <div className='logos threejs'></div>
+            </Grid>
+            <Grid item>
+              <div className='logos chartjs'></div>
+            </Grid>
+          </Grid>
         </Box>
       </Grid>
       <Container>
@@ -121,6 +138,31 @@ export default function Landing(props) {
             <Grid item container direction="row" justifyContent="flex-end">
               <Grid item>
                 <div data-aos="zoom-in" className='gallery threejs_2'>
+                </div>
+              </Grid>
+            </Grid>
+          </Grid>
+          <Grid item container direction="column">
+            <Grid item>
+              <Typography variant="h2" color="secondary" className='text-center header-text' m={3} p={2}>
+                Chart JS
+              </Typography>
+            </Grid>
+            <Grid item container direction="row" justifyContent="flex-start">
+              <Grid item>
+                <div data-aos="zoom-in" className='gallery chartjs_1'>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid item container direction="row" justifyContent="flex-end">
+              <Grid item>
+                <div data-aos="zoom-in" className='gallery chartjs_2'>
+                </div>
+              </Grid>
+            </Grid>
+            <Grid item container direction="row" justifyContent="flex-start">
+              <Grid item>
+                <div data-aos="zoom-in" className='gallery chartjs_3'>
                 </div>
               </Grid>
             </Grid>
