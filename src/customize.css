@@ -1,0 +1,53 @@
+.landing{
+    background: url('assets/img/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.gallery{
+    border:5px solid yellowgreen;
+    width: 600px;
+    height: 300px;
+}
+
+.header-text{
+    border-top:1px solid green;
+    border-bottom:1px solid green;
+}
+
+.chatgpt_1{
+    background: url('assets/gallery/chatgpt1.jpg');
+    background-size:cover;
+}
+.chatgpt_2{
+    background: url('assets/gallery/chatgpt2.jpg');
+    background-size:cover;
+}
+.golang_1{
+    background: url('assets/gallery/golang1.png');
+    background-size:cover;
+}
+.golang_2{
+    background: url('assets/gallery/golang2.jpg');
+    background-size:cover;
+}
+.grapesjs_1{
+    background: url('assets/gallery/grapesjs1.png');
+    background-size:cover;
+}
+.grapesjs_2{
+    background: url('assets/gallery/grapesjs2.png');
+    background-size:cover;
+}
+.grapesjs_3{
+    background: url('assets/gallery/grapesjs3.jpg');
+    background-size:cover;
+}
+.threejs_1{
+    background: url('assets/gallery/threejs1.jpg');
+    background-size:cover;
+}
+.threejs_2{
+    background: url('assets/gallery/threejs2.jpg');
+    background-size:cover;
+}
