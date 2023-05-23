@@ -34,10 +34,7 @@ export default function Landing(props) {
           }}
         >
           <Typography variant="h1" color="primary" className='text-center' pt={5}>
-            HERACLES
-          </Typography>
-          <Typography variant="h1" color="primary" className='text-center' pt={5}>
-            DEVELOPMENT TEAM
+            I am a Full-Stack Developer!
           </Typography>
           <Grid container direction="row" justifyContent="space-evenly" alignItems="center" mt={5}>
             <Grid item>
